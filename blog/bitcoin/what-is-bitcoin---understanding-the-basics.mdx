@@ -1,0 +1,216 @@
+---
+title: 'What is Bitcoin - Understanding the Basics'
+description: 'This article explains the fundamentals of Bitcoin - what makes it unique as digital money, how it works, and why it represents a revolutionary shift in monetary systems.'
+icon: 'bitcoin-sign'
+---
+
+<img
+  className="block dark:hidden"
+  src="/images/blog/bitcoin-basics-light.png"
+  alt="Bitcoin basics concept"
+/>
+<img
+  className="hidden dark:block"
+  src="/images/blog/bitcoin-basics-dark.png"
+  alt="Bitcoin basics concept"
+/>
+
+<Note>
+  New to Bitcoin? This guide explains the fundamentals in simple terms, covering everything you need to know about how Bitcoin works and why it's revolutionizing money.
+</Note>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+  <div>
+    <h2 className="text-xl font-bold">Key Points</h2>
+    <ul className="mt-2 list-disc list-inside">
+      <li>Bitcoin is a decentralized digital currency with a fixed supply of 21 million coins</li>
+      <li>The network is maintained by computers worldwide, not controlled by any single entity</li>
+      <li>Bitcoin transactions are borderless, transparent and resistant to censorship</li>
+      <li>Your bitcoin is controlled through private keys that must be kept secure</li>
+    </ul>
+  </div>
+  <div>
+    <h2 className="text-xl font-bold">Summary</h2>
+    <p>This article explains the fundamentals of Bitcoin - what makes it unique as a form of digital money, how it works, and why it represents a revolutionary shift in monetary systems. You'll learn about Bitcoin's key properties like its fixed supply and decentralized nature, as well as basic concepts about how the network operates.</p>
+  </div>
+</div>
+
+## What is Bitcoin? Why is it so special?
+
+<Frame>
+  <img 
+    src="/images/blog/bitcoin-network.png" 
+    alt="Bitcoin global network illustration" 
+    width="100%"
+  />
+</Frame>
+
+Think of Bitcoin as digital money that exists on a global network, similar to how emails exist on the internet. Unlike traditional money that's controlled by banks and governments, Bitcoin is maintained by a peer-to-peer network of computers worldwide, making it truly decentralized, borderless and independent.
+
+<Tabs>
+  <Tab title="Traditional Money">
+    <div className="mt-4">
+      <ul className="list-disc list-inside">
+        <li>Controlled by central banks and governments</li>
+        <li>Can be created endlessly (inflation)</li>
+        <li>Your savings lose purchasing power over time</li>
+        <li>Requires trusted third parties for transactions</li>
+        <li>Subject to censorship and confiscation</li>
+      </ul>
+    </div>
+  </Tab>
+  <Tab title="Bitcoin">
+    <div className="mt-4">
+      <ul className="list-disc list-inside">
+        <li>Decentralized - no central control</li>
+        <li>Fixed supply of 21 million coins</li>
+        <li>Designed to increase in value over time</li>
+        <li>Direct peer-to-peer transactions</li>
+        <li>Resistant to censorship and confiscation</li>
+      </ul>
+    </div>
+  </Tab>
+</Tabs>
+
+Bitcoin represents a revolutionary shift in how money works. Traditional government-issued currencies (like dollars or euros) can be created endlessly by central banks through a process called "money printing." This constant increase in money supply leads to inflation - meaning your savings lose purchasing power over time.
+
+<Tip>
+  Bitcoin solves this fundamental problem through its fixed supply of 21 million coins. No one, not even governments, can create more bitcoin beyond this limit.
+</Tip>
+
+This scarcity is enforced by the network's code and mathematics, not by human decisions.
+
+Think of it this way: When governments print more money out of thin air, they're essentially diluting the value of all existing money - like adding water to juice. Bitcoin, by contrast, is designed to become more valuable over time as demand increases while supply remains fixed. This makes it an excellent store of value, similar to digital gold.
+
+But Bitcoin goes further - it's also:
+
+<CardGroup cols={3}>
+  <Card
+    title="Decentralized"
+    icon="network-wired"
+  >
+    No single entity controls it
+  </Card>
+  <Card
+    title="Borderless"
+    icon="globe"
+  >
+    Can be sent anywhere instantly
+  </Card>
+  <Card
+    title="Transparent"
+    icon="eye"
+  >
+    All transactions are public
+  </Card>
+  <Card
+    title="Censorship-Resistant"
+    icon="lock"
+  >
+    No one can stop you from using it
+  </Card>
+  <Card
+    title="Self-Sovereign"
+    icon="key"
+  >
+    Immune to confiscation if you control your keys
+  </Card>
+  <Card
+    title="Programmable"
+    icon="code"
+  >
+    Can be used in smart contracts and applications
+  </Card>
+</CardGroup>
+
+These properties make Bitcoin not just digital money, but a profound innovation in monetary systems - one that protects wealth from inflation and gives financial sovereignty back to individuals.
+
+## How Bitcoin Works
+
+<Accordion title="Bitcoins">
+  <div className="mt-4">
+    <ul className="list-disc list-inside">
+      <li><strong>Supply</strong>: Only 21 million bitcoins will ever exist, making it a scarce digital asset.</li>
+      <li><strong>Properties</strong>: Bitcoin is fungible (each unit is identical), divisible, and easily transferable.</li>
+      <li><strong>Units</strong>: The smallest unit is called a "satoshi" (0.00000001 bitcoin).</li>
+      <li><strong>Accessibility</strong>: You can buy any fraction of a bitcoin - no need to purchase a whole one.</li>
+      <li><strong>Storage</strong>: Each bitcoin is stored at an address (like an email address for receiving money). The address is generated from a public key, which is derived from a private key. The address is safe to share, but the private key is like your password and should never be shared.</li>
+    </ul>
+  </div>
+</Accordion>
+
+<Accordion title="Keys and Addresses">
+  <div className="mt-4">
+    <p>You control your bitcoin through:</p>
+    <ul className="list-disc list-inside mt-2">
+      <li><strong>Private Key</strong>: Like your password - never share it</li>
+      <li><strong>Public Key</strong>: Derived from your private key through one-way cryptography</li>
+      <li><strong>Bitcoin Address</strong>: Like your email address - safe to share</li>
+    </ul>
+    <Warning className="mt-4">
+      Anyone who has your private key can spend your bitcoin. Keep it secure and never share it with anyone.
+    </Warning>
+  </div>
+</Accordion>
+
+<Accordion title="The Bitcoin Network">
+  <div className="mt-4">
+    <ul className="list-disc list-inside">
+      <li><strong>The Network</strong>: Bitcoin lives on a network of computers (nodes) that keep track of all transactions via a shared ledger called the blockchain.</li>
+      <li><strong>Blocks</strong>: All transactions are recorded in blocks, creating a permanent, immutable history of all bitcoin transactions.</li>
+      <li><strong>Transactions</strong>: Moving bitcoin involves sending from one address to another. This is done via a transaction, which is a record of a transfer from one address to another. To send bitcoin, you need to have the private key of the address you want to send from and sign the transaction with your private key. This is handled by your wallet.</li>
+    </ul>
+
+    <Frame className="mt-4">
+      <img 
+        src="/images/blog/bitcoin-transaction.png" 
+        alt="Bitcoin transaction illustration" 
+        width="100%"
+      />
+    </Frame>
+  </div>
+</Accordion>
+
+The beauty of Bitcoin lies in its simplicity: once you own bitcoin, you truly own it. There's no bank that can freeze your account, no government that can seize it, and no middleman needed to send it to anyone, anywhere in the world, almost instantly.
+
+<blockquote className="relative border-l-4 border-primary pl-4 [&>*]:text-gray-500 dark:[&>*]:text-gray-400">
+  "A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution."
+  <br/>— <a href="https://bitcoin.org/bitcoin.pdf" className="text-primary hover:text-primary-dark">Satoshi Nakamoto, Bitcoin Whitepaper</a>
+</blockquote>
+
+## Getting Started with Bitcoin
+
+<Steps>
+  <Step title="Learn the basics">
+    Understand what Bitcoin is and how it works before investing
+  </Step>
+  <Step title="Choose a secure wallet">
+    Select a wallet to store your bitcoin - preferably a hardware wallet for larger amounts
+  </Step>
+  <Step title="Buy bitcoin from a reputable exchange">
+    Purchase bitcoin from a trusted exchange that allows withdrawals
+  </Step>
+  <Step title="Withdraw to your personal wallet">
+    Move your bitcoin from the exchange to your own wallet for security
+  </Step>
+  <Step title="Secure your recovery phrase">
+    Back up your wallet's recovery phrase securely - this is your master key
+  </Step>
+</Steps>
+
+<Info>
+  Remember the Bitcoin community mantra: "Not your keys, not your coins." Only when you control the private keys (through your wallet) do you truly own your bitcoin.
+</Info>
+
+---
+
+<CardGroup cols={1}>
+  <Card
+    title="Explore More Bitcoin Articles"
+    icon="book-open"
+  >
+    Continue your Bitcoin journey with our other educational articles covering buying, storing, and securing your bitcoin.
+  </Card>
+</CardGroup>
+
+*This article is part of our educational series on cryptocurrency. For more guides on protecting your digital assets, explore our other articles on best practices and security concepts.*

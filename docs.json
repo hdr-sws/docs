@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Hodlr Swiss Knowledge Base",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -30,6 +30,39 @@
               "essentials/settings",
               "essentials/navigation",
               "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Blog",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "blog"
+            ]
+          },
+          {
+            "group": "Bitcoin Basics",
+            "pages": [
+              "blog/bitcoin/what-is-bitcoin---understanding-the-basics",
+              "blog/bitcoin/all-the-ways-to-buy-bitcoin---understanding-your-options",
+              "blog/bitcoin/how-to-buy-bitcoin-on-an-exchange---a-step-by-step-guide",
+              "blog/bitcoin/sending-bitcoin"
+            ]
+          },
+          {
+            "group": "Security",
+            "pages": [
+              "blog/security/hodlr-swiss-seed-phrase-security-guide",
+              "blog/security/withdrawing-bitcoin-to-your-own-wallet---a-security-guide"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "blog/getting-started/getting-started-with-bitcoin-from-purchase-to-self-custody"
             ]
           }
         ]
