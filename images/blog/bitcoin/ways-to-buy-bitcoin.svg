@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#FFFAEB"/>
+  <rect x="150" y="100" width="500" height="200" rx="20" fill="#F7931A" fill-opacity="0.8"/>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">Ways to Buy Bitcoin</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Understanding Your Options</text>
+  
+  <!-- Multiple methods icons -->
+  <circle cx="280" cy="310" r="30" fill="white"/>
+  <text x="280" y="320" font-family="Arial, sans-serif" font-size="24" fill="#F7931A" text-anchor="middle">₿</text>
+  
+  <circle cx="350" cy="310" r="30" fill="white"/>
+  <text x="350" y="325" font-family="Arial, sans-serif" font-size="30" fill="#F7931A" text-anchor="middle">$</text>
+  
+  <circle cx="420" cy="310" r="30" fill="white"/>
+  <text x="420" y="320" font-family="Arial, sans-serif" font-size="24" fill="#F7931A" text-anchor="middle">ATM</text>
+  
+  <circle cx="490" cy="310" r="30" fill="white"/>
+  <text x="490" y="320" font-family="Arial, sans-serif" font-size="24" fill="#F7931A" text-anchor="middle">P2P</text>
+</svg> 

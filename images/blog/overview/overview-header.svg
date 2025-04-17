@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#E5F7ED"/>
+  <rect x="200" y="100" width="400" height="200" rx="20" fill="#16A34A" fill-opacity="0.8"/>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Hodlr Swiss Blog</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Your Guide to Bitcoin & Self-Custody</text>
+</svg> 

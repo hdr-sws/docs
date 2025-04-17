@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#E5F7ED"/>
+  <rect x="150" y="100" width="500" height="200" rx="20" fill="#16A34A" fill-opacity="0.8"/>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Security</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Protect Your Bitcoin Investment</text>
+  
+  <!-- Shield Icon -->
+  <path d="M400 320C400 320 460 290 460 250V190L400 170L340 190V250C340 290 400 320 400 320Z" fill="white"/>
+  <path d="M400 300C400 300 445 280 445 250V200L400 185L355 200V250C355 280 400 300 400 300Z" fill="#16A34A"/>
+  <path d="M390 245L375 230L385 220L390 225L415 200L425 210L390 245Z" fill="white"/>
+</svg> 

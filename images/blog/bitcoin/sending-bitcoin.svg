@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#FFFAEB"/>
+  <rect x="150" y="100" width="500" height="200" rx="20" fill="#F7931A" fill-opacity="0.8"/>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Sending Bitcoin</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">How to Transfer Your Cryptocurrency</text>
+  
+  <!-- Bitcoin Transfer Visualization -->
+  <circle cx="280" cy="310" r="40" fill="white"/>
+  <text x="280" y="325" font-family="Arial, sans-serif" font-size="30" fill="#F7931A" text-anchor="middle">₿</text>
+  
+  <!-- Arrow -->
+  <path d="M330 310H470" stroke="white" stroke-width="5"/>
+  <path d="M450 290L470 310L450 330" stroke="white" stroke-width="5"/>
+  
+  <circle cx="520" cy="310" r="40" fill="white"/>
+  <text x="520" y="325" font-family="Arial, sans-serif" font-size="30" fill="#F7931A" text-anchor="middle">₿</text>
+</svg> 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#E5F7ED"/>
+  <rect x="150" y="100" width="500" height="200" rx="20" fill="#16A34A" fill-opacity="0.8"/>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Bitcoin Basics</text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Understanding the Fundamentals</text>
+  
+  <!-- Bitcoin Icon -->
+  <circle cx="400" cy="310" r="40" fill="#F7931A"/>
+  <path d="M420 310C420 298.954 411.046 290 400 290C388.954 290 380 298.954 380 310C380 321.046 388.954 330 400 330C411.046 330 420 321.046 420 310Z" stroke="white" stroke-width="5"/>
+  <path d="M400 290V330" stroke="white" stroke-width="5"/>
+  <path d="M420 300H380" stroke="white" stroke-width="5"/>
+  <path d="M420 320H380" stroke="white" stroke-width="5"/>
+</svg> 
