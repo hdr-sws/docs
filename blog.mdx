@@ -3,18 +3,55 @@ title: Hodlr Swiss Blog
 description: "Educational resources for cryptocurrency users at all levels"
 ---
 
-<img 
-  className="block dark:hidden"
-  src="/images/blog/overview/overview-header.svg"
-  alt="Hodlr Swiss Blog Header"
-  width="100%"
-/>
-<img 
-  className="hidden dark:block"
-  src="/images/blog/overview/overview-header.svg"
-  alt="Hodlr Swiss Blog Header"
-  width="100%"
-/>
+{/* Primary image - SVG with fallback styling */}
+<div style={{
+  position: 'relative', 
+  width: '100%',
+  marginBottom: '2rem'
+}}>
+  <img 
+    src="/images/blog/overview/overview-header.svg"
+    alt="Hodlr Swiss Blog Header"
+    width="100%"
+    style={{
+      display: 'block',
+      maxWidth: '100%'
+    }}
+  />
+  
+  {/* Fallback content if SVG fails to load */}
+  <div style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#E5F7ED',
+    borderRadius: '8px',
+    zIndex: -1
+  }}>
+    <h1 style={{ 
+      color: '#16A34A', 
+      fontSize: '2.5rem', 
+      textAlign: 'center',
+      margin: '0 0 1rem 0'
+    }}>
+      Hodlr Swiss Blog
+    </h1>
+    <p style={{
+      color: '#15803D',
+      fontSize: '1.25rem',
+      textAlign: 'center',
+      margin: 0
+    }}>
+      Your Guide to Bitcoin & Self-Custody
+    </p>
+  </div>
+</div>
 
 # Hodlr Swiss Knowledge Hub
 

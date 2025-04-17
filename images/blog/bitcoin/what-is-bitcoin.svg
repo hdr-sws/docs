@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="400" fill="#FFFAEB"/>
-  <rect x="150" y="100" width="500" height="200" rx="20" fill="#F7931A" fill-opacity="0.8"/>
-  <text x="400" y="210" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">What is Bitcoin?</text>
-  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Understanding the World's First Cryptocurrency</text>
+  <!-- Background -->
+  <rect width="800" height="400" fill="#000000"/>
   
-  <!-- Bitcoin Symbol with Question Mark -->
-  <circle cx="400" cy="310" r="40" fill="white"/>
-  <text x="400" y="330" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#F7931A" text-anchor="middle">₿?</text>
+  <!-- Isometric Bitcoin Symbol -->
+  <g transform="translate(400, 200)">
+    <!-- Orange Bitcoin Coin Base -->
+    <circle cx="0" cy="0" r="100" fill="#F7931A"/>
+    
+    <!-- Bitcoin Symbol -->
+    <path d="M40 -10C40 -21.046 31.046 -30 20 -30C8.954 -30 0 -21.046 0 -10C0 1.046 8.954 10 20 10C31.046 10 40 1.046 40 -10Z" stroke="white" stroke-width="5" fill="none" transform="translate(-20, 0)"/>
+    <path d="M0 -40V40" stroke="white" stroke-width="5" fill="none" transform="translate(0, 0)"/>
+    <path d="M-20 -20H20" stroke="white" stroke-width="5" fill="none" transform="translate(0, 0)"/>
+    <path d="M-20 20H20" stroke="white" stroke-width="5" fill="none" transform="translate(0, 0)"/>
+    
+    <!-- Isometric Dots Pattern -->
+    <g transform="translate(-100, -100)">
+      <rect width="200" height="200" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="2 4" transform="skewX(-30) skewY(0)"/>
+    </g>
+  </g>
+  
+  <!-- Text Overlay -->
+  <g transform="translate(400, 320)">
+    <rect x="-150" y="-30" width="300" height="60" rx="5" fill="#000000" stroke="#F7931A" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">What is Bitcoin?</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="12" fill="#F7931A" text-anchor="middle">Understanding the Fundamentals</text>
+  </g>
 </svg> 

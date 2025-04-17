@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="400" fill="#E5F7ED"/>
-  <rect x="150" y="100" width="500" height="200" rx="20" fill="#16A34A" fill-opacity="0.8"/>
-  <text x="400" y="210" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Bitcoin Basics</text>
-  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Understanding the Fundamentals</text>
+  <!-- Background -->
+  <rect width="800" height="400" fill="#000000"/>
   
-  <!-- Bitcoin Icon -->
-  <circle cx="400" cy="310" r="40" fill="#F7931A"/>
-  <path d="M420 310C420 298.954 411.046 290 400 290C388.954 290 380 298.954 380 310C380 321.046 388.954 330 400 330C411.046 330 420 321.046 420 310Z" stroke="white" stroke-width="5"/>
-  <path d="M400 290V330" stroke="white" stroke-width="5"/>
-  <path d="M420 300H380" stroke="white" stroke-width="5"/>
-  <path d="M420 320H380" stroke="white" stroke-width="5"/>
+  <!-- Isometric Bitcoin Stack -->
+  <g transform="translate(400, 200)">
+    <!-- Bitcoin Coins Stacked -->
+    <circle cx="40" cy="-40" r="70" fill="#F7931A"/>
+    <circle cx="-40" cy="40" r="70" fill="#F7931A"/>
+    <circle cx="0" cy="0" r="80" fill="#F7931A"/>
+    
+    <!-- Isometric Grid Pattern -->
+    <g>
+      <rect width="240" height="240" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="2 4" transform="translate(-120, -120) skewX(-30) skewY(0)"/>
+    </g>
+    
+    <!-- Bitcoin Symbol Lines -->
+    <path d="M0 -50V50" stroke="white" stroke-width="8" fill="none"/>
+    <path d="M-30 -20H30" stroke="white" stroke-width="8" fill="none"/>
+    <path d="M-30 20H30" stroke="white" stroke-width="8" fill="none"/>
+  </g>
+  
+  <!-- Text Box -->
+  <g transform="translate(400, 340)">
+    <rect x="-180" y="-40" width="360" height="80" rx="5" fill="none" stroke="#F7931A" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Bitcoin Basics</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="14" fill="#F7931A" text-anchor="middle">The Foundation of Digital Currency</text>
+  </g>
 </svg> 

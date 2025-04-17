@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="400" fill="#E5F7ED"/>
-  <rect x="150" y="100" width="500" height="200" rx="20" fill="#16A34A" fill-opacity="0.8"/>
-  <text x="400" y="210" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Security</text>
-  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Protect Your Bitcoin Investment</text>
+  <!-- Background -->
+  <rect width="800" height="400" fill="#000000"/>
   
-  <!-- Shield Icon -->
-  <path d="M400 320C400 320 460 290 460 250V190L400 170L340 190V250C340 290 400 320 400 320Z" fill="white"/>
-  <path d="M400 300C400 300 445 280 445 250V200L400 185L355 200V250C355 280 400 300 400 300Z" fill="#16A34A"/>
-  <path d="M390 245L375 230L385 220L390 225L415 200L425 210L390 245Z" fill="white"/>
+  <!-- Isometric Shield -->
+  <g transform="translate(400, 180)">
+    <!-- Shield Base -->
+    <path d="M0,-100 L80,-60 L80,60 L0,100 L-80,60 L-80,-60 Z" fill="#F7931A" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Bitcoin Symbol Inside Shield -->
+    <circle cx="0" cy="0" r="40" fill="#000000"/>
+    <path d="M0 -25V25" stroke="white" stroke-width="4" fill="none"/>
+    <path d="M-15 -10H15" stroke="white" stroke-width="4" fill="none"/>
+    <path d="M-15 10H15" stroke="white" stroke-width="4" fill="none"/>
+    
+    <!-- Isometric Grid Pattern -->
+    <g transform="translate(0, 0)">
+      <path d="M-80,-60 L0,-100 L80,-60" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+      <path d="M-80,60 L0,100 L80,60" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+      <path d="M-80,-60 L-80,60" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+      <path d="M80,-60 L80,60" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+      <path d="M0,-100 L0,100" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+    </g>
+    
+    <!-- Lock Icon -->
+    <g transform="translate(0, -60)">
+      <rect x="-12" y="0" width="24" height="20" rx="3" fill="#FFFFFF"/>
+      <path d="M-8,-12 C-8,-20 8,-20 8,-12 L8,0 L-8,0 L-8,-12Z" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+    </g>
+  </g>
+  
+  <!-- Text Box -->
+  <g transform="translate(400, 340)">
+    <rect x="-160" y="-30" width="320" height="60" rx="5" fill="none" stroke="#F7931A" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Bitcoin Security</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#F7931A" text-anchor="middle">Protecting Your Digital Assets</text>
+  </g>
 </svg> 

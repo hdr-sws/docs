@@ -1,13 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="400" fill="#E5F7ED"/>
-  <rect x="150" y="100" width="500" height="200" rx="20" fill="#16A34A" fill-opacity="0.8"/>
-  <text x="400" y="210" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">Getting Started</text>
-  <text x="400" y="260" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Begin Your Bitcoin Journey</text>
-  <circle cx="280" cy="310" r="30" fill="white"/>
-  <text x="280" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#16A34A" text-anchor="middle">1</text>
-  <circle cx="400" cy="310" r="30" fill="white"/>
-  <text x="400" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#16A34A" text-anchor="middle">2</text>
-  <circle cx="520" cy="310" r="30" fill="white"/>
-  <text x="520" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#16A34A" text-anchor="middle">3</text>
+  <!-- Background -->
+  <rect width="800" height="400" fill="#000000"/>
+  
+  <!-- Isometric Launch Pad -->
+  <g transform="translate(400, 200)">
+    <!-- Base Platform -->
+    <path d="M-100,-25 L0,-75 L100,-25 L0,25 Z" fill="#F7931A" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Rocket -->
+    <g transform="translate(0, -80)">
+      <!-- Rocket Body -->
+      <path d="M0,-40 L15,-20 L15,20 L-15,20 L-15,-20 Z" fill="#FFFFFF" stroke="#000000" stroke-width="1" transform="skewX(-10)"/>
+      
+      <!-- Rocket Cone -->
+      <path d="M-15,-20 L0,-40 L15,-20" fill="#FFFFFF" stroke="#000000" stroke-width="1" transform="skewX(-10)"/>
+      
+      <!-- Rocket Windows -->
+      <circle cx="0" cy="-10" r="5" fill="#000000" transform="skewX(-10)"/>
+      <circle cx="0" cy="5" r="5" fill="#000000" transform="skewX(-10)"/>
+      
+      <!-- Rocket Fins -->
+      <path d="M-15,20 L-30,30 L-15,10" fill="#F7931A" stroke="#000000" stroke-width="1" transform="skewX(-10)"/>
+      <path d="M15,20 L30,30 L15,10" fill="#F7931A" stroke="#000000" stroke-width="1" transform="skewX(-10)"/>
+      
+      <!-- Flames -->
+      <path d="M-10,20 L-5,35 L0,20 L5,40 L10,20" fill="#F7931A" stroke="#FFFFFF" stroke-width="1" transform="skewX(-10)"/>
+    </g>
+    
+    <!-- Launch Supports -->
+    <path d="M-40,-20 L-40,10" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M40,-20 L40,10" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Grid Pattern -->
+    <g>
+      <path d="M-100,-25 L0,-75" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+      <path d="M100,-25 L0,-75" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+      <path d="M-100,-25 L0,25" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+      <path d="M100,-25 L0,25" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+      <path d="M0,-75 L0,25" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="4 2"/>
+    </g>
+    
+    <!-- Bitcoin Symbol on Platform -->
+    <g transform="translate(0, -10) scale(0.5)">
+      <circle cx="0" cy="0" r="25" fill="#000000"/>
+      <path d="M0 -15V15" stroke="#F7931A" stroke-width="3" fill="none"/>
+      <path d="M-10 -5H10" stroke="#F7931A" stroke-width="3" fill="none"/>
+      <path d="M-10 5H10" stroke="#F7931A" stroke-width="3" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Text Box -->
+  <g transform="translate(400, 340)">
+    <rect x="-160" y="-30" width="320" height="60" rx="5" fill="none" stroke="#F7931A" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Getting Started</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#F7931A" text-anchor="middle">Begin Your Bitcoin Journey</text>
+  </g>
 </svg> 

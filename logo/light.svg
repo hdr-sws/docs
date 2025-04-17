@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Hodlr Logo Placeholder (Light Version) -->
-  <rect width="60" height="60" rx="10" fill="#16A34A"/>
-  <text x="70" y="40" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#111827">Hodlr Swiss</text>
-  <!-- Replace this placeholder with your actual logo design -->
+<svg width="180" height="50" viewBox="0 0 180 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo curve symbol -->
+  <path d="M10 25C10 22.2386 12.2386 20 15 20H20C22.7614 20 25 22.2386 25 25H30C30 22.2386 32.2386 20 35 20H40C42.7614 20 45 22.2386 45 25" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="27.5" cy="30" r="2.5" fill="#111827"/>
+  
+  <!-- Text as paths (Hodlr Swiss) -->
+  <path d="M60 15V35H63V26H72V35H75V15H72V23H63V15H60Z" fill="#111827"/>
+  <path d="M77 26C77 31.5 80.5 36 86 36C91.5 36 95 31.5 95 26C95 20.5 91.5 16 86 16C80.5 16 77 20.5 77 26ZM80 26C80 22 82.5 19 86 19C89.5 19 92 22 92 26C92 30 89.5 33 86 33C82.5 33 80 30 80 26Z" fill="#111827"/>
+  <path d="M97 16H100V26C100 30.5 102.5 33 106 33C109.5 33 112 30.5 112 26V16H115V26C115 32 111.5 36 106 36C100.5 36 97 32 97 26V16Z" fill="#111827"/>
+  <path d="M117 16H120V35H117V16Z" fill="#111827"/>
+  <path d="M123 16H126V32H134V35H123V16Z" fill="#111827"/>
+  
+  <path d="M137 25.5C137 29.5 139 33 143.5 33C146 33 147.5 31.5 148 30H151C150.5 33 147.5 36 143.5 36C137.5 36 134 31.5 134 25.5C134 19.5 137.5 15 143.5 15C147.5 15 150.5 18 151 21H148C147.5 19.5 146 18 143.5 18C139 18 137 21.5 137 25.5Z" fill="#111827"/>
+  <path d="M152 16H159C162.5 16 164.5 18 164.5 21C164.5 23 163.5 24.5 161.5 25C164 25.5 165.5 27.5 165.5 30C165.5 33 163 35 160 35H152V16ZM155 24H158C160 24 161.5 23 161.5 21C161.5 19 160 18 158 18H155V24ZM155 33H159C161 33 162.5 32 162.5 30C162.5 28 161 27 159 27H155V33Z" fill="#111827"/>
+  <path d="M167 16H170V32L178 16H181V35H178V19L170 35H167V16Z" fill="#111827"/>
+  <path d="M163 16H166V18.5H163V16Z" fill="#111827"/>
 </svg>
