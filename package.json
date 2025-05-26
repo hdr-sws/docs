@@ -1,0 +1,17 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Documentation project with blog conversion and SVG processing tools",
+  "main": "index.js",
+  "scripts": {
+    "convert-svg": "node index.js",
+    "convert-blogs": "python3 convert_blogs.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["docs", "blog", "svg", "conversion"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.34.1"
+  }
+}
